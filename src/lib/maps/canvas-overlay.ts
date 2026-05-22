@@ -1,3 +1,4 @@
+/// <reference types="google.maps" />
 // A canvas-based Google Maps OverlayView that efficiently renders
 // thousands of visited nodes plus the final path.
 

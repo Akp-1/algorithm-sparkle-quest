@@ -1,3 +1,4 @@
+/// <reference types="google.maps" />
 // Loader for the Google Maps JS API. Loads once, returns a promise that
 // resolves to the google.maps namespace.
 
