@@ -309,11 +309,7 @@ function RaceLane({
     const gen = runAlgorithm(algo, graph, source, target);
     const visited: number[] = [];
     let lastFlush = performance.now();
-    let final = null as Awaited<ReturnType<typeof runAlgorithm>> extends Generator<
-      infer T
-    >
-      ? T
-      : never;
+    let final: import("@/lib/graph/algorithms").StepEvent | null = null;
     for (const step of gen) {
       if (step.visitedDelta.length) visited.push(...step.visitedDelta);
       const now = performance.now();
