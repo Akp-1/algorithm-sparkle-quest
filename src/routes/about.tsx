@@ -89,8 +89,7 @@ function AboutPage() {
       </Card>
 
       <p className="text-center text-xs text-muted-foreground">
-        Built as a DAA subject project. Replace this section with your name,
-        roll number, and institution before submitting.
+        Built by Ayush — DBS Global University
       </p>
     </div>
   );
